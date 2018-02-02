@@ -1,1 +1,3 @@
-from jenkinsci/jenkins:latest
+FROM ubuntu
+
+RUN apt-get update
